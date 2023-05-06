@@ -29,7 +29,7 @@ function nextSequence(){
     playSound(randomChosenColor);
 };
 function playSound(randomChosenColor){
-    var audio=new Audio("sounds/"+randomChosenColor+".mp3");
+    var audio=new Audio(randomChosenColor+".mp3");
     audio.play();
 }
 function animatePress(currentColor){
